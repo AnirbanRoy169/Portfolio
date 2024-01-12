@@ -1,0 +1,642 @@
+/* OVERALL CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #900C3F;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* UTILITY CLASS */
+
+.red {
+    color: #F94C10;
+    font-size: 3.5rem;
+}
+
+#element {
+    color: #F8DE22;
+}
+
+main hr {
+    border: 0;
+    background: #F94C10;
+    height: 2px;
+    margin: 23px 54px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: #C70039;
+    position: fixed;
+    z-index: +1;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo img {
+    width: 85px;
+    margin-top: 12px;
+    filter: invert(100);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 34px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    color: #F8DE22;
+    /* font-size: 1.05rem; */
+    border-bottom: 2px solid #F8DE22;
+}
+
+/* FIRST SECTION CSS */
+
+#firstSection {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 125px 0;
+    height: 65vh;
+}
+
+#firstSection>div {
+    width: 45%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    margin-top: 100px;
+    margin-left: 55px;
+}
+
+.button {
+    margin: 45px 0;
+    width: 50%;
+    padding: 15px;
+    border: 2px solid #F94C10;
+    border-radius: 10px;
+    outline: none;
+    background: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.rightSection img {
+    width: 90%;
+}
+
+/* SECOND SECTION CSS */
+
+#secondSection {
+    width: 80vw;
+    margin: auto;
+    height: 50vh;
+}
+
+#secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#secondSection .vertical {
+    background: white;
+    width: 2px;
+    height: 40px;
+    margin: 0 12px;
+}
+
+#secondSection .vertical img {
+    position: relative;
+    top: -70px;
+    left: -30px;
+    width: 65px;
+}
+
+#secondSection .verticalText {
+    position: relative;
+    width: 170px;
+    left: -55px;
+    top: -15px;
+}
+
+/* THIRD SECTION CSS */
+
+#thirdSection {
+    width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.project-box {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #C70039;
+    border-radius: 10px;
+    width: 24%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#thirdSection img {
+    width: 120px;
+}
+
+.projectText {
+    margin: 40px 0 0 0;
+}
+
+/* CONTACT SECTION CSS */
+
+#contact {
+    width: 80vw;
+    margin: auto;
+    height: 90vh;
+}
+
+.contact-text {
+    color: #F8DE22;
+    font-size: 0.9rem;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+form input,
+textarea {
+    margin: 12px;
+    width: 60%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#text {
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+    margin: 12px;
+    width: 33%;
+    padding: 15px;
+    border: 2px solid #F94C10;
+    border-radius: 10px;
+    outline: none;
+    background: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+/* FOOTER SECTION CSS */
+
+footer {
+    background: #C70039;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 12px 0;
+}
+
+footer ul {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+footer ul li a img {
+    width: 40px;
+    margin: 12px 22px 0 0;
+    filter: grayscale(1);
+}
+
+footer ul li a img:hover {
+    filter: grayscale(0);
+}
+
+/* MEDIA QUARIES */
+
+@media screen and (min-width: 2130px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    #firstSection {
+        height: 78vh;
+    }
+
+    #firstSection .leftSection {
+        margin-top: 300px;
+        margin-left: 150px;
+        font-size: 3rem;
+    }
+
+    #firstSection .rightSection {
+        margin-top: 100px;
+    }
+
+    #secondSection {
+        height: 40vh;
+    }
+
+    #secondSection .box {
+        margin-top: 150px;
+    }
+
+    #contact {
+        height: 80vh;
+    }
+
+    #contact input,
+    textarea {
+        padding: 24px;
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width:2210px) {
+    #firstSection {
+        height: 90vh
+    }
+}
+
+@media screen and (max-width: 1458px) {
+    #firstSection {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 1334px) {
+    #contact {
+        height: 95vh;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    #firstSection {
+        height: 60vh;
+    }
+
+    #firstSection .leftSection {
+        font-size: 2rem;
+    }
+
+    #firstSection .leftSection span {
+        font-size: 2.7rem;
+    }
+
+    #firstSection .rightSection img {
+        justify-content: space-between;
+    }
+
+    .button {
+        /* width: 12%; */
+        font-size: 1rem;
+    }
+
+    .projectText {
+        text-align: center;
+    }
+
+    #contact {
+        height: 105vh;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    nav {
+        flex-direction: column;
+        /* height: 85px; */
+        justify-content: space-evenly;
+    }
+
+    .left {
+        font-size: 1.6rem;
+        align-items: center;
+    }
+
+    .left img {
+        width: 45px;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #firstSection {
+        height: 55vh;
+        margin-top: 70px;
+    }
+
+    #firstSection .leftSection {
+        font-size: 1.6rem;
+    }
+
+    #firstSection .leftSection span {
+        font-size: 2rem;
+    }
+
+    #firstSection .rightSection img {
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+
+    .button {
+        /* width: 12%; */
+        font-size: 0.8rem;
+    }
+
+    #thirdSection {
+        height: 100vh;
+    }
+
+    .project-box {
+        flex-wrap: wrap;
+    }
+
+    .project {
+        width: 45%;
+        margin: 0 0 12px 0;
+    }
+
+    form input,
+    textarea {
+        width: 100%;
+    }
+
+    footer {
+        width: 103%;
+    }
+}
+
+@media screen and (max-width: 704px) {
+    #firstSection {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        width: 109%;
+    }
+
+    #firstSection .leftSection {
+        margin-top: 30px;
+        font-size: 1.2rem;
+    }
+
+    #firstSection .leftSection span {
+        font-size: 1.6rem;
+    }
+
+    .button {
+        width: 70%;
+        font-size: 0.8rem;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    #secondSection {
+        height: 120vh;
+    }
+
+    #secondSection .box {
+        transform: rotate(90deg);
+        margin-top: 310px;
+    }
+
+    .vertical {
+        transform: rotate(180deg);
+    }
+
+    #secondSection .vertical img {
+        position: relative;
+        top: -70px;
+        left: -30px;
+        width: 65px;
+        transform: rotate(90deg);
+    }
+
+    #secondSection .verticalText {
+        position: relative;
+        width: 170px;
+        left: -83px;
+        top: 55px;
+        transform: rotate(90deg);
+    }
+
+    .project-box {
+        position: absolute;
+        flex-wrap: wrap;
+        left: 50px;
+    }
+
+    #contact {
+        height: 105vh;
+        position: sticky;
+        left: 80px;
+    }
+
+    footer {
+        width: 109%;
+    }
+}
+
+@media screen and (max-width: 526px) {
+    h1 {
+        font-size: 1rem;
+    }
+
+    nav {
+        font-size: smaller;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0px 10px;
+    }
+
+    #firstSection {
+        width: 111%;
+        margin-top: 185px;
+        height: 25vh;
+    }
+
+    #firstSection .leftSection {
+        margin-top: 30px;
+        margin-left: 0;
+        font-size: 0.8rem;
+        width: 70%;
+        text-align: center;
+    }
+
+    #firstSection .leftSection span {
+        font-size: 0.8rem;
+    }
+
+    .button {
+        width: 50%;
+        padding: 12px;
+        margin: 20px 0;
+        font-size: 0.5rem;
+    }
+
+    main hr {
+        border: 0;
+        background: #F94C10;
+        height: 2px;
+        margin: 23px 35px;
+    }
+
+    #secondSection {
+        height: 80vh;
+    }
+
+    #secondSection .box {
+        transform: rotate(90deg);
+        margin-top: 210px;
+    }
+
+    .vertical {
+        transform: rotate(180deg);
+    }
+
+    #secondSection .vertical img {
+        position: relative;
+        top: -64px;
+        left: -22px;
+        width: 55px;
+        transform: rotate(90deg);
+    }
+
+    #secondSection .verticalText {
+        font-size: 0.8rem;
+        position: relative;
+        width: 165px;
+        left: -83px;
+        top: 55px;
+        transform: rotate(90deg);
+    }
+
+    #thirdSection {
+        height: 180vh;
+    }
+
+    .project {
+        width: 100%;
+        margin: 0 0 12px 0;
+    }
+
+    .project-box {
+        position: absolute;
+        flex-wrap: wrap;
+        left: 40px;
+        margin-top: 20px;
+    }
+
+    #contact {
+        left: 60px;
+        height: 100%;
+    }
+
+    .btn {
+        width: 80%;
+        padding: 12px;
+        margin: 20px 0;
+        font-size: 0.5rem;
+    }
+
+    footer {
+        width: 111%;
+        font-size: 0.5rem;
+    }
+
+    footer h1 {
+        font-size: 1rem;
+    }
+
+    footer ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer ul li a img {
+        width: 25px;
+        margin-right: 12px;
+        margin-top: 0;
+    }
+}
