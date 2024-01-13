@@ -196,6 +196,12 @@ nav ul li a:hover {
 
 .projectText {
     margin: 40px 0 0 0;
+    cursor: pointer;
+}
+
+.projectText a{
+    color: white;
+    text-decoration: none;
 }
 
 /* CONTACT SECTION CSS */
