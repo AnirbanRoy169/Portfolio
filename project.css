@@ -61,3 +61,71 @@ section {
 .project-text h1 {
     color: #F8DE22;
 }
+
+/* MEDIA QUARIES */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        /* margin-top: 5%; */
+    }
+
+    section {
+        width: 30%;
+        margin: 12px;
+        width: 60%;
+        height: 40%;
+    }
+
+    section img {
+        width: 30%;
+    }
+
+    .project-text {
+        margin: 12px;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .project-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .project-text p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    section {
+        width: 60%;
+        height: 40%;
+    }
+
+    section img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .container {
+        flex-direction: column;
+        /* margin-top: 30%; */
+    }
+
+    section {
+        height: 50%;
+        width: 80%;
+    }
+
+    section img {
+        margin: 12px;
+        width: 60%;
+    }
+
+    .project-text {
+        margin: 12px;
+    }
+}
