@@ -1,0 +1,63 @@
+/* OVERALL CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #900C3F;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* IMG SECTION CSS */
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section img {
+    width: 60%;
+}
+
+section {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #C70039;
+    border-radius: 10px;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-text {
+    margin: 90px;
+}
+
+.btn {
+    margin: 45px 0;
+    width: 49%;
+    padding: 15px 0;
+    border: 2px solid #F94C10;
+    border-radius: 10px;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.project-text h1 {
+    color: #F8DE22;
+}
