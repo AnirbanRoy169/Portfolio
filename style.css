@@ -169,7 +169,7 @@ nav ul li a:hover {
 #thirdSection {
     width: 80vw;
     margin: auto;
-    height: 100vh;
+    height: 140vh;
 }
 
 .project-box {
@@ -429,7 +429,7 @@ footer ul li a img:hover {
     }
 
     #thirdSection {
-        height: 140vh;
+        height: 180vh;
     }
 
     .project-box {
@@ -505,6 +505,10 @@ footer ul li a img:hover {
         left: -83px;
         top: 55px;
         transform: rotate(90deg);
+    }
+
+    #thirdSection {
+        height: 180vh;
     }
 
     .project-box {
@@ -601,7 +605,7 @@ footer ul li a img:hover {
     }
 
     #thirdSection {
-        height: 260vh;
+        height: 300vh;
     }
 
     .project {
